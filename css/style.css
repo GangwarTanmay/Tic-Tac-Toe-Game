@@ -1,0 +1,117 @@
+.board
+{
+    background-color: #EAC696;
+    width: 500px;
+    margin:10px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px grey;
+    border:1px solid #EAC696;
+}
+
+.grid
+{
+    margin-top: 10px;
+    height:350px;
+    width:350px;
+    background-image: url(../images/grid.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:2px solid  rgba(255, 0, 0, 0);
+    display: none;
+}
+
+.welcome
+{
+   margin-top: 10px;
+    height:250px;
+    width:350px;
+    border:2px solid  rgba(255, 0, 0, 0);
+}
+
+.r
+{
+    height:80px;
+    border:2px solid  rgba(255, 0, 0, 0);;
+}
+
+.c
+{
+    height:60px;
+    width:60px;
+    border:2px solid  rgba(255, 0, 0, 0);;
+    float:left;
+    margin:10px 11px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#r1c1
+{
+    margin-left: 60px;
+}
+
+#r2c1
+{
+    margin-left: 60px;
+}
+
+#r3c1
+{
+    margin-left: 60px;
+}
+
+#r1
+{
+margin-top: 50px;
+}
+
+#r2
+{
+margin-top: 5px;
+}
+
+#r3
+{
+margin-top: 5px;
+}
+
+label
+{
+    margin-left:90px;
+}
+
+.score
+{
+margin:60px auto;
+}
+
+
+#PlayerA{
+    margin: 20px auto;
+}
+
+#PlayerB{
+    margin:20px auto;
+}
+
+#btn1{
+    margin: 10px auto;
+}
+
+#btn2{
+    display: none;
+    margin: 10px auto;
+}
+
+#link
+{
+    text-decoration: none;
+    color:white;
+}
+
+#link:hover
+{
+    color:orangered;
+}

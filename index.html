@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Pixelify+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="js/script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="board" align="center">
+          <img
+            src="images/pngwing.com__1_-removebg-preview.png"
+            style="height: 100px; width: 100px"
+          />
+          <a href="https://github.com/GangwarTanmay/GangwarTanmay.git" id="link"><h6>Made By Tanmay Gangwar</h6></a>
+          <div class="grid" id="grid">
+            <div class="r" id="r1">
+              <div class="c" id="r1c1" onclick="r1c1();check();checkDraw();"></div>
+              <div class="c" id="r1c2" onclick="r1c2();check();checkDraw();"></div>
+              <div class="c" id="r1c3" onclick="r1c3();check();checkDraw();"></div>
+            </div>
+            <div class="r" id="r2">
+              <div class="c" id="r2c1" onclick="r2c1();check();checkDraw();"></div>
+              <div class="c" id="r2c2" onclick="r2c2();check();checkDraw();"></div>
+              <div class="c" id="r2c3" onclick="r2c3();check();checkDraw();"></div>
+            </div>
+            <div class="r" id="r3">
+              <div class="c" id="r3c1" onclick="r3c1();check();checkDraw();"></div>
+              <div class="c" id="r3c2" onclick="r3c2();check();checkDraw();"></div>
+              <div class="c" id="r3c3" onclick="r3c3();check();checkDraw();"></div>
+            </div>
+          </div>
+
+          <div class="welcome" id="welcome">
+           <img src="images/alien.png" style="height: 100px;width: 100px;"/>
+           <input type="text" class="form-control" placeholder="Enter Player 1 name" id="PlayerA" name="PlayerA">
+           <input type="text" class="form-control" placeholder="Enter Player 2 name" id="PlayerB" name="PlayerB">
+          </div>
+          <div class="show_turn" align="center">
+            <h3 id="turn" style="font-family: Black Ops One;">Click button to start.</h3>
+          </div>
+          <div id="btn1" onclick="start();"><img src="images/play-button.png" alt="" style="height:50px;width:50px;"></div>
+          <div id="btn2" onclick="reset();"><img src="images/reload.png" alt="" style="height:50px;width:50px;"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
